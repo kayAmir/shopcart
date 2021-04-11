@@ -1,0 +1,70 @@
+/* the style of the webpage */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+:root{
+    --fontColorOne: #2458e6;
+    --fontColorTwo: #fff;
+    --niceBlue: #0088a9;
+    --buttonColor: rgb(102, 140, 175);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--fontColorTwo);
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    cursor: pointer;
+    color: whitesmoke;
+}
+.logo:hover{
+    color: #ff0;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+    font-weight: 600;
+}
+.navlinks li a:hover{
+    color: var(--niceBlue);
+}
+button{
+    padding: 9px 25px;
+    background-color: var(--niceBlue);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: var(--buttonColor);
+}
+.content{
+    
+}
+body{
+    height: 2000cm;
+    background-image: linear-gradient(to bottom, red, pink, white );
+}
